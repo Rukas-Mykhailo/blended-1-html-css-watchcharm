@@ -20,17 +20,23 @@ a {
 }
 
 .container {
-    max-width: 1150px;
+    max-width: 1180px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
+body {
+    background: #fbfbfb;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
 
 /* ------------------- HEADER ------------------ */
 
@@ -62,7 +68,7 @@ a {
 .nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
     text-align: center;
     color: #0c0c0c;
 }
@@ -92,6 +98,9 @@ a {
     gap: 407px;
 }
 
+.hero-right {
+    margin-top: 40px;
+}
 
 .collection {
     color: #3350e9;
@@ -127,9 +136,6 @@ a {
     margin-left: auto;
 }
 
-.hero-img-last {
-    margin-top: 40px;
-}
 
 /* ------------------- ABOUT ------------------ */
 
@@ -137,6 +143,7 @@ a {
 
 .about-container {
     display: flex;
+    justify-content: space-between;
     gap: 40px;
 }
 
@@ -165,6 +172,7 @@ a {
     color: rgba(12, 12, 12, 0.7);
     margin-bottom: 20px;
     margin-top: 40px;
+    max-width: 460px;
 }
 
 .about-text-second {
@@ -174,6 +182,7 @@ a {
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
     margin-bottom: 40px;
+    max-width: 460px;
 }
 
 .button-catalog {
@@ -202,3 +211,47 @@ a {
 }
 
 /* ------------------- CATALOG ------------------ */
+
+
+.catalog-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.catalog-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+}
+
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 23px;
+}
+
+.catalog-item {
+    align-items: center;
+    width: calc((100% - 46px) / 3);
+}
+
+.catalog-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.catalog-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+}
+
+/* ------------------- SALE ------------------ */
