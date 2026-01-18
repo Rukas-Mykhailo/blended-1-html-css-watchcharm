@@ -132,6 +132,10 @@ body {
     display: flex;
 }
 
+.team-hero {
+    margin-left: -16px;
+}
+
 .Scroll {
     margin-left: auto;
 }
@@ -208,6 +212,8 @@ body {
 
 .about-right {
     display: block;
+    border-radius: 50px;
+    overflow: hidden;
 }
 
 /* ------------------- CATALOG ------------------ */
