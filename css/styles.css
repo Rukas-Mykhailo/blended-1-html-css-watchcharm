@@ -88,18 +88,12 @@ body {
 }
 
 .hero-container {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
-.hero-left {
+.hero-up {
     display: flex;
-    align-items: center;
-    gap: 407px;
-}
-
-.hero-right {
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .collection {
@@ -118,15 +112,20 @@ body {
 
 .hero-text {
     max-width: 480px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
 }
 
 .second {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-left: auto;
     gap: 189px;
-
 }
+
 
 .hero-list-team {
     display: flex;
@@ -137,6 +136,13 @@ body {
 }
 
 .Scroll {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0c0c0c;
     margin-left: auto;
 }
 
