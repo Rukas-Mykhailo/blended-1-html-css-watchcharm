@@ -43,6 +43,19 @@ button {
     cursor: pointer;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* ------------------- HEADER ------------------ */
 
 .page-header {
@@ -111,7 +124,7 @@ button {
 
 .hero {
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .hero-container {
@@ -179,6 +192,8 @@ button {
 
 
 .about-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -254,8 +269,8 @@ button {
 
 
 .catalog-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .catalog-title {
@@ -308,7 +323,10 @@ button {
 
 /* ----------------Advertisement---------------- */
 
-.advertisement-container {}
+.advertisement-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 .inform-advert {
     display: flex;
@@ -355,3 +373,147 @@ button {
 
 
 /* ------------------- SALE ------------------ */
+.sale-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sale-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+}
+
+.sale-content {
+    display: flex;
+    gap: 40px;
+}
+
+.sale-left {
+    display: flex;
+}
+
+.sale-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.sale-item {
+    padding: 16px 18px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+
+.sale-big-watch {
+    padding: 80px 50px;
+    margin-left: 20px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 50px;
+    background-color: #f3f3f3;
+
+}
+
+.sale-right {
+    max-width: 530px;
+    border-radius: 50px;
+    background-color: #3350e9;
+}
+
+.sale-right-container {
+    padding: 60px;
+}
+
+.title-sale-right {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.13;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+.text-product-tag {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 20px;
+}
+
+.sale-price {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sale-price-new {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    border-radius: 8px;
+    background: rgba(251, 251, 251, 0.1);
+    padding: 8px 12px;
+}
+
+.sale-price-old {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-text-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 40px;
+}
+
+.sale-list-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sale-item-right {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #fbfbfb;
+}
+
+/* ----------------------REVIEWS------------------- */
+.reviews-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* ------------------- CONTACT-US ------------------ */
+.contact-us-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content-cont-us {
+    display: flex;
+}
+
+/* ----------------FOOTER---------------- */
+.footer-container {
+    padding: 50px 32px 32px;
+}

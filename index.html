@@ -158,7 +158,7 @@
                         and
                         we
                         reveal it.</h2>
-                    <button class="btn-advertisement">Contact Us</button>
+                    <button id="#contact-us" class="btn-advertisement">Contact Us</button>
                 </div>
             </div>
         </section>
@@ -167,52 +167,74 @@
         <section id="sale">
             <div class="container sale-container">
                 <h2 class="sale-title">Sale</h2>
-                <ul class="sale-list">
-                    <li class="sale-item"><img src="./images/sale1.png" alt="watch" width="96" height="100" /></li>
-                    <li class="sale-item"><img src="./images/sale2.png" alt="watch" width="96" height="100" /></li>
-                    <li class="sale-item"><img src="./images/sale3.png" alt="watch" width="96" height="100" /></li>
-                    <li class="sale-item"><img src="./images/sale4.png" alt="watch" width="96" height="100" /></li>
-                </ul>
-                <img src="./images/sale5.png" alt="watch" width="328" height="398" />
-                <h3>MARQ® Commander (Gen 2) - Carbon Edition</h3>
-                <p>Product tag: 706587</p>
-                <p>€1500</p>
-                <p>€3000</p>
+                <div class="sale-content">
+                    <div class="sale-left">
+                        <ul class="sale-list">
+                            <li class="sale-item"><img src="./images/sale1.png" alt="watch" width="96" height="100" />
+                            </li>
+                            <li class="sale-item"><img src="./images/sale2.png" alt="watch" width="96" height="100" />
+                            </li>
+                            <li class="sale-item"><img src="./images/sale3.png" alt="watch" width="96" height="100" />
+                            </li>
+                            <li class="sale-item"><img src="./images/sale4.png" alt="watch" width="96" height="100" />
+                            </li>
+                        </ul>
+                        <div class="sale-big-watch"> <img class="" src="./images/sale5.png" alt="watch" width="328"
+                                height="398" /></div>
+                    </div>
+                    <div class="sale-right">
+                        <div class="sale-right-container">
+                            <h3 class="title-sale-right">MARQ® Commander (Gen 2) - Carbon Edition</h3>
+                            <p class="text-product-tag">Product tag: 706587</p>
+                            <div class="sale-price">
+                                <p class="sale-price-new">€1500</p>
+                                <p class="sale-price-old">€3000</p>
+                            </div>
 
-                <p>The Garmin MARQ Commander Gen 2 Carbon Edition is a modern smartwatch for adventurers that takes
-                    materials and features
-                    to the next level. The body of the watch is made of very durable Fused Carbon Fiber material and has
-                    a
-                    precise AMOLED
-                    touch screen. The sensitive touch screen is complemented by buttons that can be used in any
-                    conditions.
-                </p>
+                            <p class="sale-text-description">The Garmin MARQ Commander Gen 2 Carbon Edition is a modern
+                                smartwatch for
+                                adventurers
+                                that
+                                takes
+                                materials and features
+                                to the next level. The body of the watch is made of very durable Fused Carbon Fiber
+                                material
+                                and has
+                                a
+                                precise AMOLED
+                                touch screen. The sensitive touch screen is complemented by buttons that can be used in
+                                any
+                                conditions.
+                            </p>
 
-                <ul>
-                    <li>
-                        <p>Fused carbon fiber </p>
-                    </li>
-                    <li>
-                        <p>Grade-5 Titanuim</p>
-                    </li>
-                    <li>
-                        <p>Athlete</p>
-                    </li>
-                    <li>
-                        <p>Golfer</p>
-                    </li>
-                    <li>
-                        <p>Commander</p>
-                    </li>
-                    <li>
-                        <p>Adventurer</p>
-                    </li>
-                </ul>
+                            <ul class="sale-list-right">
+                                <li class="sale-item-right">
+                                    <p>Fused carbon fiber </p>
+                                </li>
+                                <li class="sale-item-right">
+                                    <p>Grade-5 Titanuim</p>
+                                </li>
+                                <li class="sale-item-right">
+                                    <p>Athlete</p>
+                                </li>
+                                <li class="sale-item-right">
+                                    <p>Golfer</p>
+                                </li>
+                                <li class="sale-item-right">
+                                    <p>Commander</p>
+                                </li>
+                                <li class="sale-item-right">
+                                    <p>Adventurer</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
         <section id="reviews">
-            <div class="container">
+            <div class="container reviews-container">
                 <h2>Reviews</h2>
                 <ul>
                     <li>
@@ -241,10 +263,37 @@
                 </ul>
             </div>
         </section>
+        <section class="contact-us">
+            <div class="container contact-us-container">
+                <h2 class="title-cont-us">Contact Us</h2>
+                <div class="content-cont-us">
+                    <div class="cont-us-left">
+                        <form class="cont-us-form">
+                            <p class="form-text">Please use the form below to contact us. Enter your name, email, phone,
+                                and message and
+                                we'll
+                                get back to you shortly.</p>
+                            <label class="form-label visually-hidden" for="input-name">Name</label>
+                            <input class="form-input" type="text" name="name" id="input-name" placeholder="Name">
+                            <label class="form-label visually-hidden" for="input-email">Email</label>
+                            <input class="form-input" type="email" name="email" id="input-email" placeholder="Email">
+                            <label class="form-label visually-hidden" for="input-tel">Tel</label>
+                            <input class="form-input" type="tel" name="tel" id="input-tel" placeholder="+380">
+                            <label for="form-textarea visually-hidden" class="form-label">Comment</label>
+                            <textarea name="form-textarea" id="form-textarea" placeholder="Comment"></textarea>
+                            <button class="button-submit" type="submit">Send</button>
+                        </form>
+                    </div>
+                    <div class="cont-us-right">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
-    <footer>
-        <div class="container">
+    <footer class="footer">
+        <div class="container footer-container">
             <a href="./index.html">watchcharm</a>
             <ul>
                 <li><a href="" target="_blank" rel="noopener noreferrer nofollow">f</a></li>
