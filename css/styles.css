@@ -503,6 +503,50 @@ button {
     padding-bottom: 50px;
 }
 
+.reviews-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+}
+
+.reviews-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.reviews-items {
+    text-align: center;
+    padding: 32px 36px;
+    border-radius: 30px;
+    background-color: #f3f3f3;
+}
+
+.reviews-items-photo {
+    margin: 0 auto;
+}
+
+.reviews-items-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.reviews-items-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.4);
+}
+
 /* ------------------- CONTACT-US ------------------ */
 .contact-us-container {
     padding-top: 50px;
