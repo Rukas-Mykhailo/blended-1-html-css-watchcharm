@@ -175,7 +175,7 @@ button {
     margin-left: -16px;
 }
 
-.Scroll {
+.scroll {
     font-weight: 500;
     font-size: 20px;
     line-height: 1;
@@ -184,6 +184,12 @@ button {
     text-decoration-skip-ink: none;
     color: #0c0c0c;
     margin-left: auto;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll:focus,
+.scroll:hover {
+    color: #3350e9;
 }
 
 
@@ -251,12 +257,12 @@ button {
     color: #fbfbfb;
     cursor: pointer;
     border: none;
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-catalog:hover,
 .button-catalog:focus {
-    background: #1f3cd4;
+    background-color: #1f3cd4;
 }
 
 .about-right {
@@ -553,8 +559,107 @@ button {
     padding-bottom: 50px;
 }
 
+.title-cont-us {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+}
+
 .content-cont-us {
     display: flex;
+    gap: 40px;
+}
+
+.cont-us-left {
+    padding: 50px 60px;
+    border-radius: 50px;
+    background-color: #f3f3f3;
+}
+
+.cont-us-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 460px;
+}
+
+.form-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.form-input {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 16px 398px 16px 18px;
+    height: 52px;
+    outline: transparent;
+}
+
+.form-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #0c0c0c;
+}
+
+.form-input:focus {
+    border: 1px solid #3350e9;
+}
+
+.form-textarea {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 16px 315px 54px 16px;
+    margin-bottom: 32px;
+    resize: none;
+    outline: transparent;
+}
+
+.form-textarea::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #0c0c0c;
+}
+
+.form-textarea:focus {
+    border: 1px solid #3350e9;
+}
+
+.form-button-submit {
+    display: block;
+    padding: 17px 63px;
+    border-radius: 16px;
+    width: 160px;
+    height: 52px;
+    background-color: #3350e9;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button-submit:hover,
+.form-button-submit:focus {
+    background-color: #1f3cd4;
+}
+
+.cont-us-right {
+    border-radius: 50px;
+    display: block;
+    overflow: hidden;
+}
+
+.img-cont-us {
+    width: 100%;
 }
 
 /* ----------------FOOTER---------------- */
